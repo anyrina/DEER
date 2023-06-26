@@ -1,0 +1,190 @@
+
+body * a {
+    text-decoration: none;
+}
+
+/*メイン*/
+a {
+    color:rgb(76, 76, 76)
+}
+
+/*top_wrapper*/
+.service {
+    color: white;
+    height: 50vw;
+    background-image: url("../images/topback.png");
+    background-size: cover;
+    background-size: 100% 90%;
+    background-position: center bottom;
+    background-repeat:no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.service-text {
+    text-shadow: 3px 3px 4px #796a59;
+    border-radius: 3%;
+    width: 40vw;
+    background-color: #ffe8cf99;
+    position: absolute; 
+    top: 10vw;
+    left: 50vw;
+}
+
+.service h1 {
+    font-size: 3vw;
+    line-height: 6vw;
+}
+
+.service h2 {
+    font-size: 1.5vw;
+}
+
+/*all title*/
+.title {
+    color: rgb(76, 76, 76);
+    text-align: left;
+    font-size: 30px;
+    padding: 50px 0 0 40px;
+}
+
+/*制作実績*/
+.sumple {
+    margin-top: 50px;
+    background-color: #fcfcf8;
+    padding-bottom: 55px;
+}
+
+.sumple-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sumple-item p {
+    text-align: center;
+}
+
+.sumple-img {
+    height: auto;
+    width: 400px;
+    
+}
+
+.all{
+    width: 100px;
+    margin: 50px auto;
+    margin-bottom: 0 ;
+    text-align: center;
+    border-bottom: solid 2px burlywood;  
+}
+
+/*低価格、お知らせ*/
+.reson-blog {
+    display: flex;
+}
+
+/*低価格*/
+.reason {
+    padding-right: 40px;
+    width: 50%;
+    height: 450px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.reason-items {
+    position: absolute;
+    left: 10vw;
+}
+
+.reason-item {
+    font-size: 18px;
+    width: 210px;
+    height: 170px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.yellow {
+    background-color: rgb(247, 247, 142);
+    margin-left: 105px;
+}
+
+.yellow p {
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+.reason-2 {
+    display: flex;
+    margin-top: -20px;
+}
+
+.red {
+    background-color: #f8a8cc;
+    margin-right: 3px;
+}
+
+.red p {
+    padding-top: 35px;
+}
+
+.blue {
+    background-color: rgb(168, 226, 249);
+}
+
+.blue p {
+    padding-top: 35px;
+}
+
+/*お知らせ*/
+.blog {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.blog-items {
+    font-size: 20px;
+    margin: 70px 0 0 90px;
+}
+
+.b-item {
+    display: block;
+    margin: 50px 0;
+    border-bottom: dashed 1px #743243 ;
+    width: 400px;
+}
+
+/*制作の流れ*/
+.fa {
+    font-size: 3em;
+    margin-top: 25px;
+  }
+
+.flow {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.stage {
+    display: flex;
+}
+
+.f-item {
+    width: 350px;
+    height: 250px;
+    border: solid 5px brown;
+    margin: 10px auto;
+}
+
+.f-title {
+    font-size: 20px;
+}
+
+.f-txt {
+    display: inline-block;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    width: 280px;
+}

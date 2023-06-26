@@ -1,0 +1,13 @@
+
+body * a {
+    text-decoration: none;
+}
+/*メイン*/
+table {
+    font-size: 20px;
+    justify-content: space-around;
+    width: 800px;
+    border: solid 3px #c7b39e99;
+    margin: 100px auto ;
+    margin-top: 30px;
+}

@@ -1,0 +1,13 @@
+* {
+    text-decoration: none;
+}
+/*メイン*/
+.privacy {
+    margin: 50px auto;
+    padding: 0 10%;
+}
+
+
+.privacy-content {
+    margin: 60px 0;
+}

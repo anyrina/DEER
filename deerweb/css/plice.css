@@ -1,0 +1,71 @@
+body * a {
+    text-decoration: none;
+}
+
+/*メイン*/
+main {
+    padding: 50px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    line-height: 3em;
+}
+
+span {
+    color:rgb(210, 84, 30);
+}
+
+span br {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.plice-boxs {
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.s-plices {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid #c7b39e99 1px;
+}
+
+/*plice*/
+.fa-regular {
+    color: #ff9102;
+    font-size: 1.5em;
+}
+
+.month-plice th {
+    text-align: left;
+    line-height: 3em;
+}
+
+.month-plice td {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.plane_name {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+

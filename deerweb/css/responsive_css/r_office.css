@@ -1,0 +1,49 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+
+}
+  
+/* スマホ向けレイアウト */
+@media all and (max-width: 660px) {
+    main {
+        width: 100%;
+        margin: 80px 30px 0 0;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+
+    .info-content {
+        width: 90%;
+        font-size: 13px; 
+        padding: 10px 10px 0 10px;
+        margin: 30px auto;
+        display: block;
+    }
+
+    tr {
+        text-align: left;
+    }
+
+    th {
+        width: 120px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .table_1 {
+        margin: 0;
+    }
+
+    .table_2 {
+        margin-top: 20px
+    }
+
+    .table_2 th {
+        text-align: left;
+    }
+
+}

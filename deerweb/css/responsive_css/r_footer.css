@@ -1,0 +1,60 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+
+}
+  
+/* スマホ向けレイアウト */
+@media all and (max-width: 660px) {
+    footer {
+        height: 400px;
+    }
+
+    .res_none {
+        display: none;
+    }
+
+    .footer-item {
+        display: block;
+    }
+
+    .office {
+        margin-top: 0;
+    }
+
+    footer img {
+        height: 30px;
+    }
+
+    .home_link {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .address {
+        width: 247px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .sns {
+        width: 214px;
+        margin: 0 auto;
+    }
+
+    .footer-links {
+        height: auto;
+    }
+
+    .fl-box {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .fl-box a {
+        margin: 0;
+    }
+
+    .copy-bar {
+        margin-top: -20px;
+    }
+}

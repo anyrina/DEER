@@ -1,0 +1,36 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+
+}
+  
+/* スマホ向けレイアウト */
+@media all and (max-width: 660px) {
+    main {
+        margin-top: 80px;
+    }
+    h1 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .sumple_items {
+        display: block;
+    }
+
+    .sumple_item {
+        height: 210px;
+        width: 240px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .sumple_item a {
+        top: 10px;
+        left: -5px;
+
+    }
+
+    .sumple_img {
+        width: 250px;
+    }
+}

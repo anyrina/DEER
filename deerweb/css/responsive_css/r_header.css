@@ -1,0 +1,52 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+
+}
+  
+/* スマホ向けレイアウト */
+@media all and (max-width: 660px) {
+    header {
+        height: 33px;
+    }
+    .header-item {
+        display: block;
+        padding-top: 0;
+    }
+
+    .header-img {
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .name {
+        width: 92px;
+        height: 26px;
+    }
+
+    .menu {
+        font-size: 15px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu a {
+        color: black;
+        border-bottom: solid 5px rgb(206, 206, 206);
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .menu-item {
+        background-color: white;
+    }
+
+    .menu-info {
+        background-color: white;
+    }
+
+}

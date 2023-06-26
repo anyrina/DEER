@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+}
+/*ヘッダー*/
+header {
+    height: 97px;
+    background-color: #FCFAFA;
+}
+
+.header-item {
+    display: flex;
+    padding-top: 17px;
+}
+
+.header-img {
+    display: flex;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+}
+
+.name {
+    width: 185px;
+    height: 53px;
+    margin: 5px 0 0 -10px;
+
+}
+
+.menu {
+    font-size: 1.2em;
+    padding-right: 10px;
+    margin: 20px 0 0 auto;
+}
+
+.menu a {
+    color: white;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+.menu-item {
+    background-color: rgb(88, 88, 88);
+}
+
+.menu-info {
+    background-color: #743243;
+}
+
