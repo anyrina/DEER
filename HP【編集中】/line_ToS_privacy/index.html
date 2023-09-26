@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="whidth=device-width, initial-scale=1.0">
+        <title>利用規約</title>
+        <meta name="format-detection" content="telephone=no" />
+        <!--favicon-->
+        <link rel="icon" href="../images/favicon.ico" />
+        <link rel="apple-touch-icon" href="../images/webclip.png" />
+        <!--no-index-->
+        <meta name="robots" content="noindex,nofollow"> 
+        <!-- ogp 
+        <meta property="og:site_name" content="ホームページ制作DEER" />
+        <meta property="og:url" content="URL" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="ホームページ制作DEER" />
+        <meta property="og:description" content="サブスク型ホームページ 月額7,000円〜 DEER" />
+        <meta property="og:image" content="URL" />
+        <meta property="og:locale" content="ja_JP" />
+        <meta property="fb:app_id" content="AppID"> 
+        <meta name="twitter:card" content="summary_large_image or summary" />
+        <meta name="twitter:site" content="@moshamusha2010" /> 
+        <meta name="twitter:description" content="ページの説明" />
+        <meta name="twitter:image:src" content="URL" />-->
+
+
+        <!--css-->
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+    </head>
+
+    <body>
+        <!--header-->
+        <div id="header_parts"></div>
+
+        <main class="ToS">
+            <div class="root">
+                <p>HOME > 新規ご依頼 > 利用規約 > プライバシーポリシー</p>
+            </div>
+
+            <div class="privacy">
+                <h1>プライバシーポリシー</h1>
+                <div class="privacy_content">
+                    <h2 class="privacy_title">1.個人情報</h2>
+                    <p>サービス利用者の、個人を特定しうる情報を「個人情報」として、厳格に管理しております。個人情報は、サービス提供の為、より良いサービス開発及び運営に使用致します。収集した個人情報は、正当な理由のある場合を除き、提携先以外の第三者に対して、開示及び提出することはありません。お伺いする情報は、サービスをご利用されるうえで必要最低限の個人情報です。</p>
+                </div>
+
+                <div class="privacy_content">
+                    <h2 class="privacy_title">2.個人情報の使用目的</h2>
+                    <p>お客様からの質問等の必要な連絡を取る場合、また回答する場合。サービスの提供や弊社業務の適正な範囲内に限り、お客様の個人情報へ弊社の情報をお知らせする時のみ使用させて頂きます。</p>
+                </div>
+
+                <div class="privacy_content">
+                    <h2 class="privacy_title">3.第三者への開示</h2>
+                    <p>法令に定められた場合を除き、ご提供頂きました個人情報は、利用者の同意を得ずに、第三者に情報を開示しません。</p>
+                </div>
+
+                <div class="privacy_content">
+                    <h2 class="privacy_title">4.個人情報の管理について</h2>
+                    <p>利用者の個人情報に関して、適正な管理を行います。外部への流出防止に努めます。</p>
+                </div>
+
+                <div class="privacy_content">
+                    <h2 class="privacy_title">5.プライバシーポリシー</h2>
+                    <p>当サイトは、必要に応じて本プライバシーポリシーを変更致します。なお、本プライバシーポリシーを変更する場合は、その内容を当サイト上で表示致します。</p>
+                </div>
+            </div>
+
+
+            <div class="ToS_button">
+                <div class="container">
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSdxSjFfQlrYjXWx2Pc9UsJU_mOh1y5YMMOLX_PBqJCkGnspOA/viewform?usp=sf_link">
+                        <p><input type="checkbox" id="with-consent" name="with-consent">
+                            <label for="with-consent">利用規約に同意する</label>
+                        </p>
+                        <button type="submit" disabled id="submit">次へ進む ▶</button>
+                    </form>
+                </div>
+               
+                <script>
+                    // "#with-consent"というIDを持つ要素をドキュメントから取得し、consentという定数に保存します
+                    const consent = document.querySelector("#with-consent");
+        
+                    // "#submit"というIDを持つ要素をドキュメントから取得し、buttonという定数に保存します
+                    const button = document.querySelector("#submit");
+        
+                    // consent要素の状態が変化したときに実行されるイベントリスナーを追加します
+                    consent.addEventListener('change', () => {
+        
+                        // consent要素がチェックされているかどうかを確認します
+                        if (consent.checked === true) {
+                            // チェックが入っていれば、submitボタンを有効化します
+                            button.disabled = false;
+                        } else {
+                            // チェックが入っていなければ、submitボタンを無効化します
+                            button.disabled = true;
+                        }
+                    });
+                </script>
+                <p class="color_red">※ □ にチェックを入れて下さい</p>
+            </div>
+            <a href="../company/index.html"></a>
+       </main>
+
+        <!--footer-->
+        <div id="footer_parts"></div>
+
+
+
+        <script src="../JS/parts_second.js"></script>
+    </body>    
+</html>
